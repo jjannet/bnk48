@@ -1,0 +1,10 @@
+
+
+div.app-main {
+    display: block;
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../images/ling-app.jpg');
+}

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="SharpRaven" Version="2.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PSK48.Cores\PSK48.Cores.csproj" />
+    <ProjectReference Include="..\PSK48.Infrastructure\PSK48.Infrastructure.csproj" />
+    <ProjectReference Include="..\PSK48.Security.Bearer.Helpers\PSK48.Security.Bearer.Helpers.csproj" />
+    <ProjectReference Include="..\PSK48.ShareService\PSK48.ShareService.csproj" />
+  </ItemGroup>
+
+</Project>
